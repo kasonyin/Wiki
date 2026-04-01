@@ -1,0 +1,9 @@
+created: 20260331140652863
+creator: 尹剀
+modified: 20260331140843682
+modifier: 尹剀
+tags: MediaWiki
+title: 准备安装MediaWiki
+
+首先安装LAMP堆栈（Linux、Apache2、MySQL和PHP）
+安装Apache2
