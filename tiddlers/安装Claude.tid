@@ -1,9 +1,11 @@
 created: 20260321033337624
 creator: 尹剀
-modified: 20260324012930311
+modified: 20260327125715965
 modifier: 尹剀
 tags: Claude
 title: 安装Claude
+wysiwyg: yes
 
 ! npm 安装
-VS Code安装
+
+VS Code安装
