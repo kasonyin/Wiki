@@ -5,6 +5,7 @@ mysqldump --no-tablespaces -h localhost -u 用户名 -p'密码' --default-charac
 ```
 * 某些较新版本的 MySQL (比如8.0)可能会显示有关表空间和 PROCESS 权限的错误。MediaWiki 不使用表空间。使用`--no-tablespaces` 解决
 * -p后要紧跟密码
+
 可以使用gizp来生成更小的文件：
 ```
 mysqldump --no-tablespaces -h localhost -u 用户名 -p'密码' --default-character-set=utf8 表名 | gzip > backup.sql
